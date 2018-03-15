@@ -15,6 +15,7 @@
       font: 600 29px 'Nanum Pen Script', cursive;
       line-height: 2.1;
       color: #FF7F50;
+      background:#A1CAF1;
   }
   h2 {
       font-size: 34px;
@@ -22,6 +23,7 @@
       color: #CD5C5C;
       font-weight: 600;
       margin-bottom: 30px;
+      background: #FF9899;
   }
   h4 {
       font-size: 29px;
@@ -29,6 +31,7 @@
       color: #DDA0DD;
       font-weight: 1000;
       margin-bottom: 30px;
+      background: #FBCEB1;
   }  
   .jumbotron {
       background: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/2b/04/b8/red-bean-de-tham-restaurant.jpg"); 
@@ -62,7 +65,7 @@
       margin-bottom: 10px;
   }
   .carousel-control.right, .carousel-control.left {
-      background-image: none;
+      background: black ;
       color: #F08080;
   }
   .carousel-indicators li {
@@ -113,6 +116,7 @@
   .panel-footer h4 {
       color: #000000;
       font-size: 29px;
+      background:#A1CAF1;
   }
   .panel-footer .btn {
       margin: 15px 0;
@@ -183,18 +187,6 @@
         width: 100%;
         margin-bottom: 35px;
     }
-    .col-sm-4 img { 
-	height: 65px;
-	max-width: 250px;
-	  }
-    .container-fluid {
-      padding: 20px 5px;
-      }
-    .row {
-	 padding: 0px;
-	    margin: 0px;
-	    border: 0px;
-	  }
   }
   @media screen and (max-width: 480px) {
     .logo {
@@ -438,15 +430,15 @@ There are numerous diets that promote weight loss, sometimes in an unhealthy way
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p>Contact us and we'll get back to you within 24 hours. Thank yuu</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 196684976</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Upaul.1968@gmail.com</p>
     </div>
     <div class="col-sm-7 slideanim">
 <form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
 <input name="skip_WhereToSend" type="hidden" value="your@email.com" />
-<input name="skip_SnapHostID" type="hidden" value="2X9CD9GC28C2" />
+<input name="skip_SnapHostID" type="hidden" value="453NGQPZQLRA" />
 <input name="skip_WhereToReturn" type="hidden" value="http://www.YourWebsiteAddress.com/ThankYouPage.htm" />
 <input name="skip_Subject" type="hidden" value="Contact Us Form" />
 <input name="skip_ShowUsersIp" type="hidden" value="1" />
@@ -488,14 +480,14 @@ return false; }
 <tr><td colspan="2" style="padding-bottom:18px;">
 <!-- Please check our ProCaptcha service which is ad-free:
 http://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
-<a href="http://www.snaphost.com/captcha" alt="form in email" title="form in email">
-form in email</a></td></tr>
+<a href="http://www.snaphost.com/captcha/" alt="form with captcha" title="form with captcha">
+form with captcha</a></td></tr>
 <tr valign="top"><td> <i>Enter web form code*:</i>
 <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
 </td><td>
 <a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
 style="margin-left:20px;"
-src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=2X9CD9GC28C2&ImgType=2" /></a><br />
+src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=453NGQPZQLRA&ImgType=2" /></a><br />
 <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a> </td></tr>
 </table> <br />
 * - required fields. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -503,6 +495,7 @@ src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=2X9CD9GC28C2&ImgType=2
 </td></tr>
 </table><br />
 </form>
+
     </div>
   </div>
 </div>
@@ -511,8 +504,8 @@ src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=2X9CD9GC28C2&ImgType=2
 <div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
 function myMap() {
-var myCenter = new google.maps.LatLng(41.8781, 87.6298);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var myCenter = new google.maps.LatLng(37.7749, 122.4194);
+var mapProp = {center:myCenter, zoom:2, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
@@ -567,7 +560,14 @@ $(document).ready(function(){
     });
   });
 })
+
+$("button").on("click", function() {
+  alert("order this manue");
+});
 </script>
+
+
 
 </body>
 </html>
+
